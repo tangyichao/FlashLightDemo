@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fb_window"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:layout_height="match_parent" />
+
+    <SurfaceView
+        android:id="@+id/sfPreview"
+        android:layout_width="0.5dip"
+        android:layout_height="0.5dip" />
+</FrameLayout>
